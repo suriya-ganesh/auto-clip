@@ -1,17 +1,17 @@
 {
     // Comments are accepted in the manifest, even though it is JSON.
     "manifest_version": 3,
-    "name": "Chrome Extension v3 Starter",
-    "description": "A minimal example of a chrome extension using manifest v3",
+    "name": "Auto Clip",
+    "description": "A web auto clipper that stores clipped documents in notion",
     "version": "0.0.1",
     "icons": {
-        "16": "logo/logo-16.png",
-        "48": "logo/logo-48.png",
-        "128": "logo/logo-128.png"
+        "16": "logo/clippy_gen.png",
+        "48": "logo/clippy_gen.png",
+        "128": "./clippy_gen.png"
     },
     "options_page": "settings/settings.html",
     "action": {
-        "default_title": "Chrome Addon v3 Starter",
+        "default_title": "Auto Clip",
         "default_popup": "popup/popup.html"
     },
     "permissions": [],
